@@ -9,7 +9,7 @@ using Microsoft.Owin.Security;
 using Teatr.Models;
 
 namespace Teatr.Controllers
-{
+{ 
     [Authorize]
     public class ManageController : Controller
     {
