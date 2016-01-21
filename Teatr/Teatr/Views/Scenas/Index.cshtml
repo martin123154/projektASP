@@ -23,23 +23,6 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.nazwa)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.wielkosc)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.numer)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.scena_id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.scena_id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.scena_id })
-        </td>
-    </tr>
-}
+    @Html.Partial("PartialView")
 
 </table>

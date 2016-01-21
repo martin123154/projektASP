@@ -175,12 +175,41 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpery\SwojeHelpery.cs" />
+    <Compile Include="Migrations\201601201515531_InitialCreate.cs" />
+    <Compile Include="Migrations\201601201515531_InitialCreate.Designer.cs">
+      <DependentUpon>201601201515531_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601201952259_AddMiddleName1.cs" />
+    <Compile Include="Migrations\201601201952259_AddMiddleName1.Designer.cs">
+      <DependentUpon>201601201952259_AddMiddleName1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601211638020_DodanieWalidatoraNazwa.cs" />
+    <Compile Include="Migrations\201601211638020_DodanieWalidatoraNazwa.Designer.cs">
+      <DependentUpon>201601211638020_DodanieWalidatoraNazwa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601211707357_DodanieResztyStringowychWalidatorow.cs" />
+    <Compile Include="Migrations\201601211707357_DodanieResztyStringowychWalidatorow.Designer.cs">
+      <DependentUpon>201601211707357_DodanieResztyStringowychWalidatorow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601211812151_user.cs" />
+    <Compile Include="Migrations\201601211812151_user.Designer.cs">
+      <DependentUpon>201601211812151_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601212026574_DodanieWidokow.cs" />
+    <Compile Include="Migrations\201601212026574_DodanieWidokow.Designer.cs">
+      <DependentUpon>201601212026574_DodanieWidokow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Modele.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Validators\Nazwa.cs" />
+    <Compile Include="Validators\Tytul.cs" />
+    <Compile Include="Validators\Wielkosc.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -203,6 +232,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Content\stage.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -247,6 +277,7 @@
     <Content Include="Views\Przedstawienies\Details.cshtml" />
     <Content Include="Views\Przedstawienies\Edit.cshtml" />
     <Content Include="Views\Przedstawienies\Index.cshtml" />
+    <Content Include="Views\Scenas\PartialView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -258,6 +289,26 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201601201515531_InitialCreate.resx">
+      <DependentUpon>201601201515531_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601201952259_AddMiddleName1.resx">
+      <DependentUpon>201601201952259_AddMiddleName1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601211638020_DodanieWalidatoraNazwa.resx">
+      <DependentUpon>201601211638020_DodanieWalidatoraNazwa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601211707357_DodanieResztyStringowychWalidatorow.resx">
+      <DependentUpon>201601211707357_DodanieResztyStringowychWalidatorow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601211812151_user.resx">
+      <DependentUpon>201601211812151_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601212026574_DodanieWidokow.resx">
+      <DependentUpon>201601212026574_DodanieWidokow.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

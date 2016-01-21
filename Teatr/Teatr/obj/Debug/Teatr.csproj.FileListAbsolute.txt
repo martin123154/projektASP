@@ -64,6 +64,13 @@ c:\users\mzelek\documents\visual studio 2015\Projects\Teatr\Teatr\bin\Microsoft.
 c:\users\mzelek\documents\visual studio 2015\Projects\Teatr\Teatr\bin\Microsoft.Owin.Security.Google.xml
 c:\users\mzelek\documents\visual studio 2015\Projects\Teatr\Teatr\bin\Microsoft.Owin.Security.Twitter.xml
 c:\users\mzelek\documents\visual studio 2015\Projects\Teatr\Teatr\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\mzelek\documents\visual studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.csprojResolveAssemblyReference.cache
 c:\users\mzelek\documents\visual studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.dll
 c:\users\mzelek\documents\visual studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.pdb
+C:\Users\mzelek\Documents\Visual Studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.Migrations.InitialCreate.resources
+C:\Users\mzelek\Documents\Visual Studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.csproj.GenerateResource.Cache
+C:\Users\mzelek\Documents\Visual Studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.Migrations.AddMiddleName1.resources
+C:\Users\mzelek\Documents\Visual Studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.Migrations.DodanieWalidatoraNazwa.resources
+C:\Users\mzelek\Documents\Visual Studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.csprojResolveAssemblyReference.cache
+C:\Users\mzelek\Documents\Visual Studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.Migrations.DodanieResztyStringowychWalidatorow.resources
+C:\Users\mzelek\Documents\Visual Studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.Migrations.user.resources
+C:\Users\mzelek\Documents\Visual Studio 2015\Projects\Teatr\Teatr\obj\Debug\Teatr.Migrations.DodanieWidokow.resources

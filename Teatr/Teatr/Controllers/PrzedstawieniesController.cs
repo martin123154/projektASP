@@ -10,6 +10,7 @@ using Teatr.Models;
 
 namespace Teatr.Controllers
 {
+    [Authorize]
     public class PrzedstawieniesController : Controller
     {
         private MyDBContext db = new MyDBContext();
