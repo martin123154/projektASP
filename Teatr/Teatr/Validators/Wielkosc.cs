@@ -19,6 +19,12 @@ namespace Teatr.Validators
                 wielkosc = value.ToString();
             }
             else return new ValidationResult("Te pole nie powinno być puste");
+
+            if (wielkosc.Length == 0)
+                return new ValidationResult("Te pole nie powinno być puste");
+            else
+                wielkosc = value.ToString();
+
             if (wielkosc.Length < 3 || wielkosc.Length > 40)
                 return new ValidationResult("Te pole powinno zawierać między 3 a 40 znaków");
             else

@@ -8,12 +8,11 @@ namespace Teatr.Helpery
 {
     public static class SwojeHelpery
     {
-        public static MvcHtmlString Image( string src, string altText)
+      
+
+        public static string WstawTekst(string tekst)
         {
-            var builder = new TagBuilder("img");
-            builder.MergeAttribute("src", src);
-            builder.MergeAttribute("alt", altText);
-            return MvcHtmlString.Create(builder.ToString(TagRenderMode.SelfClosing));
+            return String.Format("Witamy użytkownika " + tekst + " na stronie projektu!");
         }
     }
 }

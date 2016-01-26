@@ -220,6 +220,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\mzelek.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -278,6 +279,9 @@
     <Content Include="Views\Przedstawienies\Edit.cshtml" />
     <Content Include="Views\Przedstawienies\Index.cshtml" />
     <Content Include="Views\Scenas\PartialView.cshtml" />
+    <Content Include="Views\Przedstawienies\partialViewList.cshtml" />
+    <Content Include="Views\Shared\ScenaLayout.cshtml" />
+    <Content Include="Views\Shared\PrzedstawienieLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

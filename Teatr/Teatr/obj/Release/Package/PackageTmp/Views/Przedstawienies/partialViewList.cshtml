@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Teatr.Models.Przedstawienie>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Scena.nazwa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tytul)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.data_rozp)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.data_zak)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.przedstawienie_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.przedstawienie_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.przedstawienie_id })
+        </td>
+    </tr>
+}
+
